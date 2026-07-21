@@ -11,6 +11,6 @@ const Seo = ({ title, description }) => {
     </Helmet>
   );
 };
-
+   
 export default Seo;  
 

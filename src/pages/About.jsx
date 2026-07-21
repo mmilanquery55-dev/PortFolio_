@@ -9,7 +9,7 @@ import {
   FaDownload, FaEnvelope, FaPython, FaReact,
   FaGitAlt, FaGithub
 } from "react-icons/fa";
-import {
+import {   
   SiJavascript, SiFastapi, SiMysql
 } from "react-icons/si";
 
