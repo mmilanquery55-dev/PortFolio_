@@ -12,5 +12,4 @@ const Seo = ({ title, description }) => {
   );
 };
    
-export default Seo;  
-
+export default Seo;   
