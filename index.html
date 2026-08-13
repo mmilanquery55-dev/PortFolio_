@@ -12,6 +12,45 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- -----Chat Boot----- -->
+      <!-- <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://milan-social-agent.app.n8n.cloud/webhook/edc3f8bc-7055-4c3f-bbd8-9f30451edd09/chat' 
+	});
+</script> -->
+
+ <link
+  href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+  rel="stylesheet"
+/>
+
+<script type="module">
+  import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+  createChat({
+    webhookUrl: 'https://milan-social-agent.app.n8n.cloud/webhook/a7995f88-f9a9-46fd-aaf2-0d74ee022b72/chat', 
+
+    initialMessages: [
+      'Hi 👋 Welcome to my portfolio!',
+      'I’m the portfolio AI assistant. What would you like to know?'
+    ] 
+  });
+</script>  
+
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'YOUR_PRODUCTION_WEBHOOK_URL'
+	});
+</script>  -->
+
+
   </body>
 </html>
    
